@@ -52,8 +52,6 @@ git remote add origin https://github.com/RasailiTilak/mern_stack.git
 
 git push -u origin main
 
-
-
 ```
 
 

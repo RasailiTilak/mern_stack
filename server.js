@@ -5,6 +5,11 @@ require('dotenv').config()
 
 const app = express()
 //const port = 3000
+const githubdata={
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest",
+    "status": "404"
+  }
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -16,7 +21,13 @@ app.get('/hello',(req,res)=>{
 })
 
 // send some json  from server
-app.get(()=>{
+app.get('/git',(req,res)=>{
+    res.json({
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest",
+        "status": "404"
+      })
+
 
 })
 
