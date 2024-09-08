@@ -5,3 +5,5 @@
 import express from 'express'
 
 ```
+## professionally how to read api
+  copy and pate the json file in to the **json formatter and check in the tree format**
